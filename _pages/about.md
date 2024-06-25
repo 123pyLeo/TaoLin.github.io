@@ -7,43 +7,50 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+## 教育背景
+### [本科], [人工智能], [昆明理工大学]
+- **入学时间**: 2022
+- **预计毕业时间**: 2026
+- **GPA**: 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 技能
+- **编程语言**: Python, MATLAB
+- **研究技能**: 数据分析, 模型设计
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## 科研经历
+### [基于YOLOv8的路面病害检测算法改进]
+- **时间**: 2023 10 - 2024 03
+- **项目描述**: 本项目针对现有路面病害检测算法在复杂场景下对微小损伤识别能力不足的问题，基于YOLOv8算法进行改进，提出YOLOv8-LSD算法。该算法引入可变形注意力机制，使模型能够动态调整注意力焦点，更精确地关注图像中的关键区域；结合大分离卷积核注意力模块，增强模型对路面细节的识别能力；引入空间和通道重构卷积模块，优化特征提取和表示。实验结果表明，YOLOv8-LSD算法在路面病害检测任务中取得了一定的性能提升
+- **成果**: 2024 International Conference on Pattern Recognition, Machine Vision and Intelligent Algorithms (PRMVIA)
+### [基于无监督学习的伪装目标检测算法研究]
+- **时间**: 2023 04 - 至今
+- **项目描述**: 在现阶段的伪装目标检测研究中，针对传统方法依赖于大量标注数据，存在标注成本高且时间消耗大对问题，设计了一种基于深度学习的无监督特征学习方法。该方法同时结合外部引导以及先验知识，能够自动提取数据中的潜在模式和特征对伪装目标进行检测
+- **成果**: 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## 竞赛成果
+### [第五届全球校园人工智能算法精英大赛——道路病害目标检测], [国家二等奖]
+- **时间**: 2023 12
+- **项目描述**: “道路病害目标检测”利用人工智能技术识别图像中的七种道路病害类型，包括横向裂缝、纵向裂缝、块状裂缝、龟裂、坑槽、修补网状裂缝、修补裂缝和修补坑槽
+- **个人工作**:团队负责人，基于YOLOv8模型结合注意力机制设计构建一个高效的算法模型检测道路病害
+### [第17届）中国大学生计算机设计大赛——物联网赛道], [省级二等奖]
+- **时间**: 2024 05
+- **项目描述**: “守卫者”是一款基于无人机和人工智能技术的全天候洪涝智能救援检测系统。该系统利用可见光目标检测技术和深度学习模型，结合无人机定轨飞行技术，实现对灾区环境中被困人员进行高效准确的检测和定位。系统采用改进的 YOLOv8 网络进行可见光目标检测，识别被困人员等目标，并通过高度集成的飞行控制系统实现无人机在复杂环境中的自主飞行，无需人工干预。此外，系统还通过扬声器向被困人员提供救援逃生建议。该系统具有高精度检测、低配置要求、高效处理和自主决策等优势，可广泛应用于洪涝灾害救援、搜救行动等领域，具有一定的社会价值
+- **个人工作**:团队负责人，制定项目计划,分析算法实现，制作算法，统筹规划全局，后期完善系统
+### [第二十六届中国机器人及人工智能大赛], [省级二等奖]
+- **时间**: 2024 06
+- **项目描述**: 鱼乐智控是一款智慧水族箱分析预警系统，基于 STM32 单片机和多种智能算法，实现水质实时监测、异常预警、水质预测和自动调节等功能，并提供个性化鱼苗推荐和远程控制，为用户带来便捷、高效的养鱼体验
+- **个人工作**:团队负责人，制定项目计划，分析算法实现，制作算法负责代码的实现，前后端交互筹规划全局，后期完善系统
+### [第十五届蓝桥杯个人赛（Python A组）], [省级三等奖]
+- **时间**: 2024 04
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 语言能力
+- **英语**: 491（CET-6）
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 兴趣爱好
+- 听歌
+- 游泳
+- 足球
 
-**Markdown generator**
+---
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+*此简历最后更新于:* 2024年6月25日
