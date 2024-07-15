@@ -30,6 +30,8 @@ redirect_from:
 - **时间**: 2023 10 - 2024 03
   
 - **项目描述**: 本项目针对现有路面病害检测算法在复杂场景下对微小损伤识别能力不足的问题，基于YOLOv8算法进行改进，提出YOLOv8-LSD算法。该算法引入可变形注意力机制，使模型能够动态调整注意力焦点，更精确地关注图像中的关键区域；结合大分离卷积核注意力模块，增强模型对路面细节的识别能力；引入空间和通道重构卷积模块，优化特征提取和表示。实验结果表明，YOLOv8-LSD算法在路面病害检测任务中取得了一定的性能提升。
+
+- **项目展示**:"yolov8-improved.jpg"
   
 - **成果**: 2024 International Conference on Pattern Recognition, Machine Vision and Intelligent Algorithms (PRMVIA)
 
