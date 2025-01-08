@@ -12,7 +12,7 @@ title                    : "Tao Lin(林涛) / Academics Page"
 title_separator          : "-"
 name                     : &name "Tao Lin"
 description              : &description "personal description"
-url                      : https://123pyleo.github.io/TaoLin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://123pyleo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "123pyLeo/TaoLin.github.io"
 
